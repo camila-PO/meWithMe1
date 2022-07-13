@@ -27,7 +27,7 @@ def consultar1():
 
                 for (codInsegura, perg1, perg2, perg3, perg4, perg5) in con:
                     print(
-                        '\033[1;34mCODIGO DO EXERCICIO:\033[0;0m {}\n\nNaquele momento, o que estava te deixando(a) inseguro(a)?\n\n :\033[\033[1;34m Sua resposta0;0m {}\n\n O que te provava, naquele momento, que esta porcentagem estava correta?\n\n \033[1;34m Sua resposta:\033[0;0m  {}\n\n O que te provava que isso realmente iria acontecer?\n\n \033[1;34m Sua resposta:\033[0;0m  {}\n\n Por fim, Como você se acolheu? Que conselho você daria a um amigo(a) que estivesse passando por esta situação?\n\n \033[1;34m Sua resposta:\033[0;0m  {}'.format(codInsegura,
+                        '\n \n \033[1;34mCODIGO DO EXERCICIO:\033[0;0m {}\n\nNaquele momento, o que estava te deixando(a) inseguro(a)?\n\n \033[1;34m Sua resposta:\033[0;0m {}\n\n O que te provava, naquele momento, que esta porcentagem estava correta?\n\n \033[1;34m Sua resposta:\033[0;0m  {}\n\n O que te provava que isso realmente iria acontecer?\n\n \033[1;34m Sua resposta:\033[0;0m  {}\n\n Por fim, Como você se acolheu? Que conselho você daria a um amigo(a) que estivesse passando por esta situação?\n\n \033[1;34m Sua resposta:\033[0;0m  {}'.format(codInsegura,
                                                                                                           perg1,
                                                                                                           perg2,
                                                                                                           perg3,
@@ -65,7 +65,7 @@ def consultar2():
 
         for(codRotu, perg6, perg7, perg8, perg9, perg10) in con:
             print(
-                '\033[1;34mCODIGO DO EXERCICIO:\033[0;0m {}\n\nNaquele momento, quais adjetivos você se atrubuiu?\n\n \033[1;34m Sua resposta:\033[0;0m {}\n\n De acordo com sua pesquisa, o que significavam estas palavras?\n\n \033[1;34m Sua resposta:\033[0;0m  {}\n\n Depois desta pesquisa, você realmente acha que se encaixa nestas descrições?\n\n \033[1;34m Sua resposta:\033[0;0m  {}\n\n Que fatos você listou como prova de que isso é real? \n\n \033[1;34m Sua resposta:\033[0;0m  {}\n\n Por fim, você atribuiria estas palavras a um amigo(a)?\n\n \033[1;34m Sua resposta:\033[0;0m  {}\n\n'.format(
+                '\n \n \033[1;34mCODIGO DO EXERCICIO:\033[0;0m {}\n\nNaquele momento, quais adjetivos você se atrubuiu?\n\n \033[1;34m Sua resposta:\033[0;0m {}\n\n De acordo com sua pesquisa, o que significavam estas palavras?\n\n \033[1;34m Sua resposta:\033[0;0m  {}\n\n Depois desta pesquisa, você realmente acha que se encaixa nestas descrições?\n\n \033[1;34m Sua resposta:\033[0;0m  {}\n\n Que fatos você listou como prova de que isso é real? \n\n \033[1;34m Sua resposta:\033[0;0m  {}\n\n Por fim, você atribuiria estas palavras a um amigo(a)?\n\n \033[1;34m Sua resposta:\033[0;0m  {}\n\n'.format(
                     codRotu,
                     perg6,
                     perg7,
